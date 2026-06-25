@@ -9,10 +9,10 @@ B.Tech Capstone Project Report — Department of Computer Science & Engineering
 ## 👥 Authors & Project Team
 
 * **Students**:
-  * **Sourish Bose** (Roll: 11500121120, Regn: 21115010110119)
-  * **Swastik Kumar Tripathi** (Roll: 11500121008, Regn: 211150100110008)
-  * **Yubaraj Biswas** (Roll: 11500121034, Regn: 211150100110037)
-  * **Sakshi Singh** (Roll: 11500121036, Regn: 211150100110039)
+  * **Sourish Bose** 
+  * **Swastik Kumar Tripathi** 
+  * **Yubaraj Biswas** 
+  * **Sakshi Singh** 
 * **Supervisor**: **Mrs. Soumi Tokdar**, Assistant Professor, Dept. of CSE
 
 ---
@@ -91,9 +91,9 @@ The repository is structured to separate code, results, and pre-trained configur
 └── README.md               # Main project overview
 ```
 
-* **[notebooks/](file:///D:/Coding/Enhanced-NIDS-MetaLearning/notebooks)**: Jupyter notebooks documenting the training pipelines.
-* **[models/](file:///D:/Coding/Enhanced-NIDS-MetaLearning/models)**: Placeholder directories for pre-trained weights.
-* **[reports/](file:///D:/Coding/Enhanced-NIDS-MetaLearning/reports)**: Visual heatmaps and JSON files containing raw performance evaluation parameters.
+* **[notebooks/](notebooks/)**: Jupyter notebooks documenting the training pipelines.
+* **[models/](models/)**: Placeholder directories for pre-trained weights.
+* **[reports/](reports/)**: Visual heatmaps and JSON files containing raw performance evaluation parameters.
 
 ---
 
@@ -103,9 +103,9 @@ Due to file size restrictions, model weights (`.h5`/`.keras`), scalers (`.pkl`),
 
 | # | Notebook / Component | File Link | Description & Key Features | Kaggle Link (Weights/Artifacts) |
 |---|---|---|---|---|
-| **1** | **Multi-class ANN Classifier (CIC-IDS2018)** | [cse-cic-ids2018-nids-ann.ipynb](file:///D:/Coding/Enhanced-NIDS-MetaLearning/notebooks/cse-cic-ids2018-nids-ann.ipynb) | Feedforward network trained on engineered static features. Resolves high-frequency traffic attacks with low computational overhead. | [Download Weights & Scalers (Kaggle)](#) |
-| **2** | **Time-Series LSTM + Multi-Head Attention** | [time-series-lstm-multi-head-attention.ipynb](file:///D:/Coding/Enhanced-NIDS-MetaLearning/notebooks/time-series-lstm-multi-head-attention.ipynb) | LSTM network combined with multi-head self-attention mechanism to capture temporal and sequential context of slow network intrusions. | [Download Weights & Configurations (Kaggle)](#) |
-| **3** | **Final Level-1 Meta-Model (Logistic Regression)** | [meta-model-ann-ltsm-w-multi-head-attention.ipynb](file:///D:/Coding/Enhanced-NIDS-MetaLearning/notebooks/meta-model-ann-ltsm-w-multi-head-attention.ipynb) | Stacking model utilizing predictions from Level-0 networks to produce the final consensus. Evaluates the fusion accuracy. | [Download Meta-Model Artifacts (Kaggle)](#) |
+| **1** | **Multi-class ANN Classifier (CIC-IDS2018)** | [cse-cic-ids2018-nids-ann.ipynb](notebooks/cse-cic-ids2018-nids-ann.ipynb) | Feedforward network trained on engineered static features. Resolves high-frequency traffic attacks with low computational overhead. | [View on Kaggle](https://www.kaggle.com/code/ybtheflashbppimt/cse-cic-ids2018-nids-ann) |
+| **2** | **Time-Series LSTM + Multi-Head Attention** | [time-series-lstm-multi-head-attention.ipynb](notebooks/time-series-lstm-multi-head-attention.ipynb) | LSTM network combined with multi-head self-attention mechanism to capture temporal and sequential context of slow network intrusions. | [View on Kaggle](https://www.kaggle.com/code/ybtheflashbppimt/time-series-lstm-multi-head-attention) |
+| **3** | **Final Level-1 Meta-Model (Logistic Regression)** | [meta-model-ann-ltsm-w-multi-head-attention.ipynb](notebooks/meta-model-ann-ltsm-w-multi-head-attention.ipynb) | Stacking model utilizing predictions from Level-0 networks to produce the final consensus. Evaluates the fusion accuracy. | [View on Kaggle](https://www.kaggle.com/code/ybtheflashbppimt/meta-model-ann-ltsm-w-multi-head-attention) |
 
 ---
 
@@ -169,7 +169,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Fetch Pre-trained Weights
-Download the pre-trained weights and predictions from the Kaggle links in the table and place them in `/models/` according to [models/README.md](file:///D:/Coding/Enhanced-NIDS-MetaLearning/models/README.md).
+Download the pre-trained weights and predictions from the Kaggle links in the table and place them in `/models/` according to [models/README.md](models/README.md).
 
 ---
 
