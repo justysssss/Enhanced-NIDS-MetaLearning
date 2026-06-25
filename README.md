@@ -1,6 +1,6 @@
 # Enhanced Network Intrusion Detection Using Machine Learning Techniques
 
-B.Tech Capstone Project Report — Department of Computer Science & Engineering  
+B.Tech Final Year Project — Department of Computer Science & Engineering  
 **B.P. Poddar Institute of Management & Technology** (Affiliated to MAKAUT), Kolkata, India  
 **Academic Year**: 2024 – 2025
 
