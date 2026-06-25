@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset and Large Data files
+data/*
+!data/.gitkeep
+
+# Large numpy arrays
+*.npy
+
+# Model weights and serialized files (to prevent large binary uploads)
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
